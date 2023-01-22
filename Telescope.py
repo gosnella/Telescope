@@ -80,7 +80,7 @@ class Telescope:
         :param wavelength: wavelength of radio wave
         :param theta: angle between baseline vector and radio wave source
         :param alpha: angle between two antennae
-        :return: absolute value of the path difference between two radio waves
+        :return: phase difference modulo 2pi between two antennae 
         """
 
         if wavelength <= 0:
