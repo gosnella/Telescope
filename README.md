@@ -6,4 +6,4 @@ For example, to compute the baseline length between two antennae, use the follow
 
 ```venv\Scripts\python.exe IRIS.py baseline_between --file telescope.json```
 
-ensuring the working directory contains the relevant files with nested ```python.exe```.
+Ensuring the working directory contains the relevant files with nested ```python.exe```.
