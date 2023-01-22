@@ -8,7 +8,7 @@ class Telescope:
         """
         :param antenna: collection of coordinates of each antenna. Coordinates must be the same length.
         """
-        if len(antenna) <= 2:
+        if len(antenna) < 2:
             raise ValueError("must have at least two antennae")
 
         self.antenna = antenna
